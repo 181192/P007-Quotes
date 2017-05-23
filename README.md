@@ -9,6 +9,8 @@ Programmet har tre knapper hvor du kan:
   - Få en random quote
   - Loope, hvor det da kommer en ny quote hvert 5 sek
   - Stoppe loopen
+  - Animert bakgrunn som bytter farge
+  - Innholdet i appen skalerer seg etter hvor stort vinduet er
 
 ![Albert Einstein](https://github.com/h181192/P07-Quotes/blob/master/posters/Quote-Albert_Einstein.PNG)
 
@@ -17,3 +19,7 @@ Programmet har tre knapper hvor du kan:
 Bakgrunnen i appen rullerer og bytter farge
 
 ![Sam Leverson](https://github.com/h181192/P07-Quotes/blob/master/posters/Quote-Sam_Levenson.PNG)
+
+## Windows Nedlastning
+
+Nedlastning til siste versjon finner du [her](https://github.com/h181192/P07-Quotes/releases).
