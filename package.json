@@ -1,0 +1,29 @@
+{
+  "name": "quotes_generator",
+  "version": "1.0.0",
+  "description": "A minimal quote generator app",
+  "main": "main.js",
+  "dependencies": {
+    "electron": "^1.6.8",
+    "electron-packager": "^8.7.0",
+    "electron-squirrel-startup": "^1.0.0",
+    "jquery": "^3.2.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/h181192/P07-Quotes.git"
+  },
+  "keywords": [
+    "quotes"
+  ],
+  "author": "Kristoffer-Andre Kalliainen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/h181192/P07-Quotes/issues"
+  },
+  "homepage": "https://github.com/h181192/P07-Quotes#readme"
+}

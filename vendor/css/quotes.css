@@ -1,0 +1,48 @@
+body {
+	font-family: 'Josefin Sans', sans-serif;
+	background-color: #2b3e50;
+    animation-name: example;
+    animation: example 120s infinite;
+}
+
+
+/* Standard syntax */
+@keyframes example {
+   0% {background-color: #2b3e50;}
+   25% {background-color: #502b45;}
+   50% {background-color: lightseagreen;}
+   75% {background-color: #2f568c}
+   100% {background-color: #2b3e50;}
+}
+
+/* centered columns styles */
+.row-centered {
+    text-align:center;
+}
+.col-centered {
+    display:inline-block;
+    float:none;
+    /* reset the text-align */
+    text-align:left;
+    /* inline-block space fix */
+    margin-right:-4px;
+}
+
+::-webkit-scrollbar { 
+    display: none; 
+}
+
+h1, h2, h3 {
+	font-size: 8vw;
+	font-weight: 300;
+}
+
+p {
+	font-size: 3vw;
+	font-weight: 100;
+}
+
+.btn {
+	font-size: 3vw;
+
+}

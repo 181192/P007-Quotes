@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Quotes!</title>
+    <link rel="stylesheet" type="text/css" href="vendor/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="vendor/css/font-awesome.min.css">
+
+    <link rel="stylesheet" type="text/css" href="vendor/css/quotes.css">
+    <link rel="stylesheet" type="text/css" href="vendor/css/menu.css">
+
+    <link href="vendor/css/font.css" rel="stylesheet">
+  </head>
+  <body>
+    <div id="title-bar">
+      <div id="title">Quote-generator</div>
+      <div id="title-bar-btns">
+           <button id="min-btn"><i class="fa fa-window-minimize" aria-hidden="true"></i></button>
+           <button id="max-btn"><i class="fa fa-window-maximize" aria-hidden="true"></i></button>
+           <button id="close-btn"><i class="fa fa-window-close" aria-hidden="true"></i></button>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row row-centered">
+        <div class="col-lg-12 col-md-12 col-sm-11 col-centered">
+          <h2>Gi meg en quote!</h2>
+        </div>
+      </div>
+      <div class="row row-centered" style="height: 200px;padding-top: 50px;">
+        <div class="col-lg-12 col-md-12 col-sm-11 col-centered" id="quoteContainer">
+          <p></p>
+          <p id="quoteGenius"></p> 
+        </div>
+      </div>
+
+    <footer style="margin-top: 4vw;">
+     <div class="btn-group-justified" style="position: fixed; bottom: 0; right: 0; height: 8vw;">
+          <a href="#" class="btn btn-danger" id="quoteButton">Generer</a>
+          <a href="#" class="btn btn-danger" id="quoteLoopButton">Loop</a>
+          <a href="#" class="btn btn-danger" id="quoteLoopStopButton">Stop</a>
+      </div>
+    </div>
+    </footer>
+  </body>
+    <!-- Insert this line above script imports  -->
+    <script>if (typeof module === 'object') {window.module = module; module = undefined;}</script>
+   
+    <script src="vendor/js/jquery.min.js"></script>
+    <script type="text/javascript" src="vendor/js/quotes.js"></script>
+    <script>
+      // You can also require other files to run in this process
+      require('./renderer.js')
+      
+    </script>
+    <script type="text/javascript" src="vendor/js/menu.js"></script>
+
+    <!-- Insert this line after script imports -->
+    <script>if (window.module) module = window.module;</script>
+</html>
